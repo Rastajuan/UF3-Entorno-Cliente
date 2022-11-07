@@ -1,0 +1,24 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+#actividades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+#actividad1,
+#actividad2 {
+  width: 45%;
+}
+footer {
+  text-align: center;
+  font-size: 0.7em;
+  bottom: 50px;
+  margin-top: 50px;
+  color:rgb(94, 91, 91);
+  opacity: .6;
+  /* background-color: darkorchid; */
+}

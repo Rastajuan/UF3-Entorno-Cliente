@@ -1,0 +1,29 @@
+
+#contenido{
+    min-height: 400px;
+}
+#contenido>p{
+
+color: blueviolet;
+background-color: aqua;
+}
+footer {
+  text-align: center;
+  font-size: 0.7em;
+  bottom: 50px;
+  margin-top: 50px;
+  color:rgb(94, 91, 91);
+  opacity: .6;
+  /* background-color: darkorchid; */
+}
+#botones{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+}
+#cabecera{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
