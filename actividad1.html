@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACTIVIDAD 1</title>
+    <script src="js/actividad1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/actividad1CSS.css" />
+  </head>
+  <body>
+    <div id="cabecera">
+      <h1>ACTIVIDAD 1</h1>
+      <input type="button" value="VOLVER INDICE" onclick="location.href='index.html'" />
+      <input type="button" value="VER ACTIVIDAD 2" onclick="location.href='actividad2.html'" /></div>
+    <div id = "contFormulario">
+      <form id="formulario "action="#" target="" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Introduzca su nombre"/>
+
+        <label for="apellidos">Horario</label>
+        <select name="horario" id="horario" />
+              <option selected>Elija un horario</option>
+              <option>Mañana</option>
+              <option>Tarde</option>
+              </select>
+        <br>
+        <input type="checkbox" name="check" id="check" />
+        <label for="check" class="check">Acepto las normas de registro</label>
+        <div id="botonera">
+          <input type="button" value="Enviar" onclick="comprobarFormulario()"/>
+          <input type="reset" value="Borrar Formulario" />
+          </div>
+        
+      </form>
+    </div>
+
+    <footer id="pie">
+      <p>©Copyleft 2022 <strong>Juan Bello Fernández</strong> </br> Trabajo perteneciente a la UF3 de Diseño Web en Entorno Cliente. 2º DAW</p></footer>
+    
+  </body>
+</html>
