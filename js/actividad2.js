@@ -14,3 +14,19 @@ function alinearCentro() {
 function alinearDerecha() { 
     document.getElementById("contenido").style.textAlign = "right";
 }
+
+function cambiarColor() {
+    document.getElementById("contenido").style.color = "red";
+}
+
+function cambiarFondo() {
+    document.getElementById("contenido").style.backgroundColor = "yellow";
+}
+
+function cambiarTamano() {
+    document.getElementById("contenido").style.fontSize = "20px";
+}
+
+function cambiarTipoLetra() {
+    document.getElementById("contenido").style.fontFamily = "Arial";
+}
